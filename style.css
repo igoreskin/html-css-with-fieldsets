@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    /* padding: 0; */
+    box-sizing: border-box;
+}
+
+.container {
+    width: 70%;
+    margin: 30px auto;
+    background-color: #fcfafafb;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+fieldset {
+    margin-bottom: 10px;
+}
