@@ -13,15 +13,38 @@
         <form action="#">
             <fieldset>
                 <legend>Your Face</legend>
+                Your image: <button type="button">Choose File</button> No file chosen
             </fieldset>
             <fieldset>
                 <legend>General Details</legend>
+                <p><label for="name">Name: </label><input type="text" placeholder="Your full name"></p>
+                <p><label for="gender">Gender: </label><input type="radio" name="gender" value="male"> Male <input type="radio" name="gender" value="female"> Female</p>
+                <p><label for="age">Age: </label><input type="text" maxlength="4" size="4"></p>
+                <p><label for="birthday">Date of birth: </label><input type="date"></p>
+                <p><label for="color">Favorite color: </label><input type="color"></p>
+                <p><label for="country">Which country: </label>
+                    <select name="country">
+                        <option disabled selected value></option>
+                        <option value="usa">United States</option>
+                        <option value="canada">Canada</option>
+                        <option value="mexico">Mexico</option>
+                    </select>
+                </p>
             </fieldset>
             <fieldset>
                 <legend>Your Indicators</legend>
+                <p><label for="height">Height: </label><input type="range"></p>
+                <p><label for="salary">Salary: </label><input type="range"></p>
             </fieldset>
             <fieldset>
                 <legend>Your Contact Information</legend>
+                <p><label for="email">Email: </label><input type="email"></p>
+                <p><label for="mobile">Mobile: </label><input type="tel"></p>
+                <p><label for="address">Address: </label><textarea name="address" id="" cols="40" rows="5"></textarea></p>
+                <p>
+                    <label for="method">Method to contact you: </label>
+                    <input type="radio" name="email" value="email"> Email
+                </p>
             </fieldset>
             <input type="submit" value="Submit!">
         </form>

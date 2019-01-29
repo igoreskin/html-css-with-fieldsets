@@ -5,15 +5,22 @@
 }
 
 .container {
-    width: 70%;
+    width: 50%;
     margin: 30px auto;
     background-color: #fcfafafb;
+    padding: 5px;
 }
 
 h1 {
     margin-bottom: 20px;
 }
 
+p {
+    margin-bottom: 5px;
+}
+
 fieldset {
     margin-bottom: 10px;
+    border: 7px solid #f7fd01;
+    background-color: #fdfee5;
 }
