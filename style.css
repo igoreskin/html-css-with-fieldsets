@@ -19,8 +19,32 @@ p {
     margin-bottom: 5px;
 }
 
+label {
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 200px;
+    text-align: right;
+}
+
 fieldset {
     margin-bottom: 10px;
     border: 7px solid #f7fd01;
     background-color: #fdfee5;
+}
+
+.min {
+    background-color: #981c30;
+    border: none;
+    color: white;
+}
+
+.max {
+    background-color: #751380;
+    border: none;
+    color: white;
+}
+
+.range {
+    padding-top: 5px;
 }

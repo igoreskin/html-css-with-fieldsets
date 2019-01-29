@@ -13,16 +13,17 @@
         <form action="#">
             <fieldset>
                 <legend>Your Face</legend>
-                Your image: <button type="button">Choose File</button> No file chosen
+                <p><label for="your-image">Your image:&nbsp; </label><button type="button">Choose File</button> No file chosen </p>
+                <p><label for="preview">Image preview:&nbsp; </label></p>
             </fieldset>
             <fieldset>
                 <legend>General Details</legend>
-                <p><label for="name">Name: </label><input type="text" placeholder="Your full name"></p>
-                <p><label for="gender">Gender: </label><input type="radio" name="gender" value="male"> Male <input type="radio" name="gender" value="female"> Female</p>
-                <p><label for="age">Age: </label><input type="text" maxlength="4" size="4"></p>
-                <p><label for="birthday">Date of birth: </label><input type="date"></p>
-                <p><label for="color">Favorite color: </label><input type="color"></p>
-                <p><label for="country">Which country: </label>
+                <p><label for="name">Name:&nbsp; </label><input type="text" placeholder="Your full name"></p>
+                <p><label for="gender">Gender:&nbsp; </label><input type="radio" name="gender" value="male"> Male <input type="radio" name="gender" value="female"> Female</p>
+                <p><label for="age">Age:&nbsp; </label><input type="text" maxlength="4" size="4"></p>
+                <p><label for="birthday">Date of birth:&nbsp; </label><input type="date"></p>
+                <p><label for="color">Favorite color:&nbsp; </label><input type="color"></p>
+                <p><label for="country">Which country:&nbsp; </label>
                     <select name="country">
                         <option disabled selected value></option>
                         <option value="usa">United States</option>
@@ -33,17 +34,29 @@
             </fieldset>
             <fieldset>
                 <legend>Your Indicators</legend>
-                <p><label for="height">Height: </label><input type="range"></p>
-                <p><label for="salary">Salary: </label><input type="range"></p>
+                <p>
+                    <label for="height">Height:&nbsp; </label>
+                    <button class="min">Short</button>
+                    <input type="range" class="range">
+                    <button class="max">Tall</button>
+                </p>
+                <p>
+                    <label for="salary">Salary:&nbsp; </label>
+                    <button class="min">Poor</button>
+                    <input type="range" class="range">
+                    <button class="max">Rich</button>
+                </p>
             </fieldset>
             <fieldset>
                 <legend>Your Contact Information</legend>
-                <p><label for="email">Email: </label><input type="email"></p>
-                <p><label for="mobile">Mobile: </label><input type="tel"></p>
-                <p><label for="address">Address: </label><textarea name="address" id="" cols="40" rows="5"></textarea></p>
+                <p><label for="email">Email:&nbsp; </label><input type="email"></p>
+                <p><label for="mobile">Mobile:&nbsp; </label><input type="tel"></p>
+                <p><label for="address">Address:&nbsp; </label><textarea name="address" id="" cols="40" rows="5"></textarea></p>
                 <p>
-                    <label for="method">Method to contact you: </label>
-                    <input type="radio" name="email" value="email"> Email
+                    <label for="method">Method to contact you:&nbsp; </label>
+                    <input type="radio" name="email" value="email"> Email&nbsp;
+                    <input type="radio" name="whatsapp" value="whatsapp"> Whatsapp&nbsp;
+                    <input type="radio" name="chat" value="chat"> In-app chat
                 </p>
             </fieldset>
             <input type="submit" value="Submit!">
