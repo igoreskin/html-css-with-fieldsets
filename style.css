@@ -1,6 +1,5 @@
 * {
     margin: 0;
-    /* padding: 0; */
     box-sizing: border-box;
 }
 
@@ -17,6 +16,10 @@ h1 {
 
 p {
     margin-bottom: 5px;
+}
+
+button, input[type=submit] {
+    cursor: pointer;
 }
 
 label {
@@ -37,14 +40,24 @@ fieldset {
     background-color: #981c30;
     border: none;
     color: white;
+    width: 60px;
 }
 
 .max {
     background-color: #751380;
     border: none;
     color: white;
+    width: 60px;
 }
 
 .range {
     padding-top: 5px;
+}
+
+.indicator {
+    vertical-align: middle;
+}
+
+legend:hover {
+    font-size: 25px;
 }
