@@ -17,15 +17,20 @@
                     <label for="your-image">Your image:&nbsp; </label>
                     <input type="file" id="fileInput" 
                     onclick="document.getElementById('fileInput').click()" value="Choose File"/>
-                    <!-- <input type="button" onclick="document.getElementById('myFileInput').click()" value="Choose File" /> -->
-                    <!-- <button type="button">Choose File</button> No file chosen  -->
                 </p>
                 <p id=targetImage><label for="preview">Image preview:&nbsp; </label></p>
             </fieldset>
             <fieldset>
                 <legend>General Details</legend>
-                <p><label for="name">Name:&nbsp; </label><input type="text" placeholder="Your full name"></p>
-                <p><label for="gender">Gender:&nbsp; </label><input type="radio" name="gender" value="male"> Male <input type="radio" name="gender" value="female"> Female</p>
+                <p>
+                    <label for="name">Name:&nbsp; </label>
+                    <input type="text" placeholder="Your full name">
+                </p>
+                <p>
+                    <label for="gender">Gender:&nbsp; </label>
+                    <input type="radio" name="gender" value="male"> Male 
+                    <input type="radio" name="gender" value="female"> Female
+                </p>
                 <p><label for="age">Age:&nbsp; </label><input type="text" maxlength="4" size="4"></p>
                 <p><label for="birthday">Date of birth:&nbsp; </label><input type="date"></p>
                 <p><label for="color">Favorite color:&nbsp; </label><input type="color"></p>
@@ -57,7 +62,10 @@
                 <legend>Your Contact Information</legend>
                 <p><label for="email">Email:&nbsp; </label><input type="email"></p>
                 <p><label for="mobile">Mobile:&nbsp; </label><input type="tel"></p>
-                <p><label for="address">Address:&nbsp; </label><textarea name="address" id="" cols="40" rows="5"></textarea></p>
+                <p>
+                    <label for="address">Address:&nbsp; </label>
+                    <textarea name="address" id="" cols="40" rows="5"></textarea>
+                </p>
                 <p>
                     <label for="method">Method to contact you:&nbsp; </label>
                     <input type="radio" name="method" value="email"> Email&nbsp;
